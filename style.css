@@ -1,0 +1,82 @@
+* {
+  color: #000000;
+  font-family: "Addington CF", serif;
+}
+
+.main {
+  height: 100vh;
+}
+
+#about, #warnings {
+  background: #FFF;
+  z-index: 2;
+}
+
+.illustration {
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+#arrow {
+  width: 3rem;
+}
+
+.carousel-control-next {
+  opacity: 1;
+}
+
+h1 {
+  font-family: "Iskry", serif;
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+
+p, span {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+a {
+  color: #555;
+  text-underline-offset: 0.2rem;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.menu span, .back {
+  cursor: pointer;
+}
+
+span:hover {
+  border-bottom: 1px solid #000;
+}
+
+p.back:hover {
+  text-underline-offset: 0.5rem;
+  text-decoration: underline;
+}
+
+.carousel-pages .active {
+  border-bottom: 1px solid #000;
+}
+
+.scroll {
+  padding: 20% 0;
+  overflow-y: scroll;
+}
