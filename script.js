@@ -3,8 +3,6 @@ $(document).ready(() => {
     let index = $(".carousel-item").siblings(".active").index();
     if (index == 30)
       $("#next").text("end");
-    else if (index == 31)
-      $("#next").text("start");
     else
       $("#next").text("next");
     $(".carousel-pages span").removeClass("active");

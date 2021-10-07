@@ -75,8 +75,3 @@ p.back:hover {
 .carousel-pages .active {
   border-bottom: 1px solid #000;
 }
-
-.scroll {
-  padding: 20% 0;
-  overflow-y: scroll;
-}
