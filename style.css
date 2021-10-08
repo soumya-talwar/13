@@ -1,6 +1,6 @@
 @font-face {
   font-family: addington;
-  src: url(fonts/addington.otf);
+  src: local("addington"), url(fonts/addington.otf);
 }
 
 @font-face {
