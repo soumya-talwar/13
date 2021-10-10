@@ -2,9 +2,13 @@ $(document).ready(() => {
   $("#carousel").on("slid.bs.carousel", () => {
     let index = $(".carousel-item").siblings(".active").index();
     if (index == 30)
-      $("#next").text("end");
+      $("#next").text("finally");
     else
       $("#next").text("next");
+    if (index == 31)
+      $(".carousel-control-next").addClass("invisible");
+    else 
+      $(".carousel-control-next").removeClass("invisible");
     $(".carousel-pages span").removeClass("active");
     $("span[data-bs-slide-to=" + index + "]").addClass("active");
   });
