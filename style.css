@@ -1,91 +1,89 @@
 @font-face {
-  font-family: addington;
-  src: local("addington"), url(fonts/addington.otf);
+	font-family: addington;
+	src: local("addington"), url(fonts/addington.otf);
 }
 
 @font-face {
-  font-family: iskry;
-  src: url(fonts/iskry.ttf);
+	font-family: iskry;
+	src: url(fonts/iskry.ttf);
 }
 
 * {
-  color: #000000;
-  font-family: addington, serif;
+	color: #000000;
+	font-family: addington, serif;
 }
 
 body {
-  background: #FFF;
+	background: #fff;
 }
 
 .main {
-  height: 100vh;
+	height: 100vh;
 }
 
-#about, #warnings {
-  background: #FFF;
-  z-index: 2;
+#about,
+#warnings {
+	background: #fff;
+	z-index: 2;
 }
 
 .illustration {
-  height: 100vh;
-  position: absolute;
-  z-index: -1;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
 }
 
 #arrow {
-  width: 3rem;
+	width: 3rem;
 }
 
 .carousel-control-next {
-  opacity: 1;
+	opacity: 1;
 }
 
 h1 {
-  font-family: iskry, serif;
-  font-size: 6.5rem;
+	font-family: iskry, serif;
+	font-size: 6.5rem;
 }
 
 h2 {
-  font-size: 3rem;
-  letter-spacing: 1px;
+	font-size: 3rem;
+	letter-spacing: 1px;
 }
 
-p, span {
-  font-size: 0.9rem;
-  letter-spacing: 1px;
+p,
+span {
+	font-size: 0.9rem;
+	letter-spacing: 1px;
 }
 
 p {
-  line-height: 2rem;
+	line-height: 2rem;
 }
 
 a {
-  color: #555;
-  text-underline-offset: 0.2rem;
+	color: #555;
+	text-underline-offset: 0.2rem;
 }
 
 a:hover {
-  color: inherit;
+	color: inherit;
 }
 
-.menu span, .back {
-  cursor: pointer;
+.menu span,
+.back {
+	cursor: pointer;
 }
 
 span:hover {
-  border-bottom: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 p.back:hover {
-  text-underline-offset: 0.5rem;
-  text-decoration: underline;
+	text-underline-offset: 0.5rem;
+	text-decoration: underline;
 }
 
 .carousel-pages .active {
-  border-bottom: 1px solid #000;
-}
-
-.scroll {
-  padding: 40% 0;
-  overflow-y: scroll;
+	border-bottom: 1px solid #000;
 }
